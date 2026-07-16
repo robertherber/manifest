@@ -1,8 +1,10 @@
 # Analytics dashboards: concepts and per-page specification
 
-This document defines the vocabulary of the Manifest dashboards and what each
-page shows. The goal: when the team discusses a number, everyone knows which
-definition it carries.
+This document describes WHAT EACH PAGE SHOWS and the reading rules. The
+canonical term definitions (Request, Attempt, Last Attempt, Recovered
+Request, `autofix_status`, database mapping) live in
+[`docs/glossary.md`](glossary.md); when the two disagree on a definition, the
+glossary wins.
 
 ## The two worlds
 
