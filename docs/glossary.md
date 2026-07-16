@@ -82,9 +82,9 @@ Each Request belongs to exactly one outcome category, evaluated in this order:
 
 The ordering makes Auto-fix the tie-breaker if inconsistent or historical data satisfies both recovery criteria. If an Auto-fix retry fails and a fallback succeeds, the Request is recovered by fallback because `requests.autofix_status` is not `retry_succeeded`.
 
-### Applied method
+### Recovery attempt
 
-An applied method is a recovery method Manifest tried during a Request, whether or not it succeeded. Auto-fix and fallback fields on Attempts describe what happened in the chain; they do not replace the Request status or recovery category.
+A recovery attempt is a recovery method Manifest tried during a Request, whether or not it succeeded. The Requests table lists them in its "Recovery attempts" column and filter. Auto-fix and fallback fields on Attempts describe what happened in the chain; they do not replace the Request status or recovery category.
 
 ### AI Provider and Provider Connection
 
